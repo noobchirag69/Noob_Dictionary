@@ -2,21 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Noob Dictionary</title>
+    <title>Dictionary</title>
 </head>
 
 <body>
-    <h1>Dictionary</h1>
-    <p>A simple English-to-English dictionary to help you know the meaning of any english word.</p>
-    <input type="text" placeholder="Type a word">
-    <button>Go</button>
-    <p id="word"></p>
-    <p id="meaning"></p>
-    <p id="usage"></p>
+    <div class="container">
+        <div class="dictionary">
+            <div class="title">
+                <h1>Dictionary</h1>
+                <p>The simplest English-to-English dictionary!</p>
+            </div>
+            <hr>
+            <input type="text" placeholder="Enter your word">
+            <div class="toggle">
+                <p id="meaning"></p>
+            </div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 

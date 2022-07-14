@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dictionary {
+    margin: 0 20px 0 20px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(139, 222, 255);
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.6);
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+hr {
+    border-color: black;
+}
+
+input {
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 80%;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.6);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border: 2px solid black;
+}
+
+.toggle {
+    display: none;
+    margin-top: 20px;
+}
